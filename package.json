@@ -1,0 +1,25 @@
+{
+  "name": "Node-Upload-s3",
+  "version": "0.0.1",
+  "description": "Node for amozon s3 upload file",
+  "main": "knoxupload.js",
+  "dependencies": {
+    "express": "^4.10.7",
+    "knox": "^0.9.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liu11hao11/Node-Upload-s3.git"
+  },
+  "author": "Alexander Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liu11hao11/Node-Upload-s3/issues"
+  },
+  "homepage": "https://github.com/liu11hao11/Node-Upload-s3"
+}
