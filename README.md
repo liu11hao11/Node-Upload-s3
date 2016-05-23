@@ -1,8 +1,8 @@
-Node for amozon s3 upload file
+##Node for amozon s3 upload file
+  you should config you CROS in you amzon 
+  for mine is :
 
-
-you should config you CROS in you amzon 
-for mine is :
+```javascript
 <?xml version="1.0" encoding="UTF-8"?>
 <CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
     <CORSRule>
@@ -14,9 +14,11 @@ for mine is :
         <AllowedHeader>*</AllowedHeader>
     </CORSRule>
 </CORSConfiguration>
+```
 
+##How to run it
 
-How to run it
-
- a.npm install
- b.node server
+```javascript
+ npm install
+ node server
+```
